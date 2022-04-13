@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<%= h.changeCase.snake(name) %>/views/<%= h.changeCase.snake(name) %>_page.dart
+to: lib/app/modules/<%= h.changeCase.snake(name) %>/views/<%= h.changeCase.snake(name) %>_view.dart
 ---
 import 'package:flutter/material.dart';
 

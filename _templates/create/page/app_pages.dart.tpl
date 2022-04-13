@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 
 import '../modules/modules.dart';
 
+import 'app_routes.dart';
+
 class AppPages {
   AppPages._();
 

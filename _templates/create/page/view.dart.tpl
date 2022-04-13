@@ -15,15 +15,13 @@ class <%= h.changeCase.pascal(name) %>View extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<<%= h.changeCase.pascal(name) %>Controller>(
       init: <%= h.changeCase.pascal(name) %>Controller(),
-      builder: (controller) => <%= h.changeCase.pascal(name) %>Page(controller: controller),
+      builder: (_) => <%= h.changeCase.pascal(name) %>Page(),
     );
   }
 }
 
 class <%= h.changeCase.pascal(name) %>Page extends StatelessWidget {
-  const <%= h.changeCase.pascal(name) %>Page({Key? key, required this.controller}) : super(key: key);
-
-  final <%= h.changeCase.pascal(name) %>Controller controller;
+  final controller = Get.find<<%= h.changeCase.pascal(name) %>Controller>();
 
   @override
   Widget build(BuildContext context) {

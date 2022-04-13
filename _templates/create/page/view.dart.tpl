@@ -29,12 +29,12 @@ class <%= h.changeCase.pascal(name) %>Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TestView'),
+        title: Text('<%= h.changeCase.pascal(name) %>View'),
         centerTitle: true,
       ),
       body: Center(
         child: Text(
-          'TestView is working',
+          '<%= h.changeCase.pascal(name) %>View is working',
           style: TextStyle(fontSize: 20),
         ),
       ),

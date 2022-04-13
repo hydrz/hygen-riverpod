@@ -14,6 +14,6 @@ class AppPages {
   static const INITIAL = '/';
 
   static final routes = [
-    // DO NOT EDIT. This is code generated via hygen.
+    // DO NOT REMOVE THIS LINE. This is code generated via hygen.
   ];
 }

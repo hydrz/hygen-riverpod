@@ -1,11 +1,11 @@
 ---
-to: lib/app/modules/<%= h.changeCase.snake(name) %>_page.dart
+to: lib/app/modules/<% name %>/views/<%= h.changeCase.snake(name) %>_page.dart
 ---
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import '<%= h.changeCase.snake(name) %>.dart';
+import '../controllers/<%= h.changeCase.snake(name) %>_controller.dart';
 
 class <%= h.changeCase.pascal(name) %>View extends StatelessWidget {
   const <%= h.changeCase.pascal(name) %>View({Key? key}) : super(key: key);

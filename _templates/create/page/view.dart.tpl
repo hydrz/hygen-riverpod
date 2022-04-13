@@ -1,5 +1,6 @@
 ---
 to: lib/app/modules/<%= h.changeCase.snake(name) %>/views/<%= h.changeCase.snake(name) %>_view.dart
+unless_exists: true
 ---
 import 'package:flutter/material.dart';
 

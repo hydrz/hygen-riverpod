@@ -15,7 +15,7 @@ class <%= h.changeCase.pascal(name) %>View extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<<%= h.changeCase.pascal(name) %>Controller>(
       init: <%= h.changeCase.pascal(name) %>Controller(),
-      builder: (_) => <%= h.changeCase.pascal(name) %>Page(controller: _),
+      builder: (controller) => <%= h.changeCase.pascal(name) %>Page(controller: controller),
     );
   }
 }

@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<% name %>/bindings/<%= h.changeCase.snake(name) %>_binding.dart
+to: lib/app/modules/<%=name%>/bindings/<%= h.changeCase.snake(name) %>_binding.dart
 ---
 
 import 'package:get/get.dart';

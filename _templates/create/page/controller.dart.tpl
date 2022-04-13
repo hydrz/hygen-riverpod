@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<% name %>/controllers/<%= h.changeCase.snake(name) %>_controller.dart
+to: lib/app/modules/<%=name%>/controllers/<%= h.changeCase.snake(name) %>_controller.dart
 ---
 import 'package:get/get.dart';
 

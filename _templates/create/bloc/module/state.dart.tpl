@@ -1,12 +1,12 @@
 ---
-to: lib/modules/<%= h.changeCase.snake(name) %>/cubit/<%= h.changeCase.snake(name) %>_state.dart
+to: lib/bloc/<%= h.changeCase.snake(name) %>/<%= h.changeCase.snake(name) %>_state.dart
 unless_exists: true
 ---
-part of '<%= h.changeCase.snake(name) %>_cubit.dart';
+part of '<%= h.changeCase.snake(name) %>_bloc.dart.tpl';
 
 abstract class <%= h.changeCase.pascal(name) %>State extends Equatable {
   const <%= h.changeCase.pascal(name) %>State();
-
+  
   @override
   List<Object> get props => [];
 }

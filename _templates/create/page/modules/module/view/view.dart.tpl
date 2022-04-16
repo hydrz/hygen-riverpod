@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<%= h.changeCase.snake(name) %>/view/<%= h.changeCase.snake(name) %>_view.dart
+to: lib/modules/<%= h.changeCase.snake(name) %>/view/<%= h.changeCase.snake(name) %>_view.dart
 unless_exists: true
 ---
 part of 'page.dart';

@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<%= h.changeCase.snake(name) %>/view/<%= h.changeCase.snake(name) %>_page.dart
+to: lib/modules/<%= h.changeCase.snake(name) %>/view/<%= h.changeCase.snake(name) %>_page.dart
 unless_exists: true
 ---
 import 'package:app/app_export.dart';

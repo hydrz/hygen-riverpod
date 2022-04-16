@@ -14,6 +14,7 @@ export 'router.gr.dart';
     RedirectRoute(path: '/', redirectTo: '/splash'),
 
     // DO NOT REMOVE THIS LINE. This is code generated via hygen.
+    
     RedirectRoute(path: '*', redirectTo: '/'),
   ],
 )

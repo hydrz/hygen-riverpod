@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/<%= h.changeCase.snake(name) %>/cubit/<%= h.changeCase.snake(name) %>_cubit.dart
+to: lib/modules/<%= h.changeCase.snake(name) %>/cubit/<%= h.changeCase.snake(name) %>_cubit.dart
 unless_exists: true
 ---
 import 'package:bloc/bloc.dart';

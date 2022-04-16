@@ -2,7 +2,7 @@
 to: lib/modules/<%= h.changeCase.snake(name) %>/view/<%= h.changeCase.snake(name) %>_view.dart
 unless_exists: true
 ---
-part of 'page.dart';
+part of '<%= h.changeCase.snake(name) %>_page.dart';
 
 class <%= h.changeCase.pascal(name) %>View extends StatelessWidget {
   const <%= h.changeCase.pascal(name) %>View({Key? key}) : super(key: key);

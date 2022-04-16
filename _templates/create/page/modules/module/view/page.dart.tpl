@@ -6,9 +6,9 @@ import 'package:app/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../cubit/<%= h.changeCase.pascal(name) %>_cubit.dart';
+import '../cubit/<%= h.changeCase.snake(name) %>_cubit.dart';
 
-part 'home_view.dart';
+part '<%= h.changeCase.snake(name) %>_view.dart';
 
 class <%= h.changeCase.pascal(name) %>Page extends StatelessWidget {
   const <%= h.changeCase.pascal(name) %>Page({Key? key}) : super(key: key);

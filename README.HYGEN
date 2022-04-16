@@ -17,7 +17,7 @@ mv hygen ~/.local/bin
 
 ```
 cd workspace
-hygen init repo https://github.com/hydrz/hygen-getx.git
+hygen init repo https://github.com/hydrz/hygen-bloc.git
 ```
 
 ## usage

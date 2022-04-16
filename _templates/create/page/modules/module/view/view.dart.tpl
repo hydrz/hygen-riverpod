@@ -16,7 +16,7 @@ class <%= h.changeCase.pascal(name) %>View extends StatelessWidget {
       ),
       body: Center(
         child: GestureDetector(
-          onTap: () => AutoRouter.of(context).push(CounterRoute()),
+          onTap: (){},
           child: Text('<%= h.changeCase.pascal(name) %>View is working'),
         ),
       ),

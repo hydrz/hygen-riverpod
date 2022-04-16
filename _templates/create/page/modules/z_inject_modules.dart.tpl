@@ -1,5 +1,5 @@
 ---
-to: lib/app/modules/modules.dart
+to: lib/modules/modules.dart
 inject: true
 skip_if: <%= h.changeCase.snake(name) %>
 before: "This is code generated via hygen"

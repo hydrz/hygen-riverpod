@@ -1,4 +1,4 @@
-# hygen-getx
+# hygen-riverpod
 
 as a complement to [get cli](https://github.com/jonataslaw/get_cli/blob/master/README-zh_CN.md)
 
@@ -17,7 +17,7 @@ mv hygen ~/.local/bin
 
 ```
 cd workspace
-hygen init repo https://github.com/hydrz/hygen-bloc.git
+hygen init repo https://github.com/hydrz/hygen-riverpod.git
 ```
 
 ## usage
